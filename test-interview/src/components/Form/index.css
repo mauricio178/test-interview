@@ -1,0 +1,19 @@
+.DivForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 8em;
+    margin-right: 8em;
+    border-radius: 15px;
+    color: white;
+}
+
+.Input { 
+    padding: 4px 48px;
+    
+}
+
+.Title {
+    margin: 1em;
+}

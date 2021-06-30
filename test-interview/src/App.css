@@ -5,8 +5,11 @@
 
 }
 
-.Carousel {
-
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .Text{
@@ -27,4 +30,14 @@
   justify-content: space-between;
   width: 40vw;
   flex-direction: row;
+}
+
+.Footer {
+  background: gray;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }

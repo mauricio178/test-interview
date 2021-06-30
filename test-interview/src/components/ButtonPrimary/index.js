@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button'
+import './index.css'
 
 
 function ButtonPrimary({label}){
     return(
-        <Button variant="primary">
+        <Button className="Button" variant="primary">
             {label}
         </Button>
     )
